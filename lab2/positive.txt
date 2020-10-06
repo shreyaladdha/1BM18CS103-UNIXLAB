@@ -1,0 +1,14 @@
+
+1) Program to check if the number is positive , negative or zero using test operator.
+CODE:
+echo "Enter a number"
+read num
+if [ $num -lt 0 ]
+then
+ echo "Negative"
+elif [ $num -gt 0 ]
+then
+ echo "Positive"
+else
+ echo "Zero"
+fi
