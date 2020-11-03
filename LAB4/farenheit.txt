@@ -1,0 +1,4 @@
+echo "Convert Fahrenheit temperatures into Celsius"
+echo "Enter temperature (F) : "
+read temp_f
+echo Temperature in Celcius : $(expr "scale=2;(5/9)*($temp_f-32)"|bc)
