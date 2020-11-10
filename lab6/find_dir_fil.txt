@@ -1,0 +1,9 @@
+dir=`find . -type d | wc -l`
+files=`find . -type f | wc -l`
+echo "----DIRECTORIES----"
+echo $dir
+echo "----FILES----"
+echo $files
+echo "----TOTAL COUNT----"
+sum=`echo $dir + $files | bc`
+echo $sum
