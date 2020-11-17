@@ -1,0 +1,9 @@
+if [ -f $* ]
+then 
+echo "File is an ordinary file"
+elif [ -d $* ]
+then
+echo "File is a directory"
+else
+echo "Enter a valid name"
+fi
