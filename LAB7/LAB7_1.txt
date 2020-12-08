@@ -1,0 +1,4 @@
+read -p "Enter File1 and file2: " f1 f2
+cat $f1 | head -n 5 > list.txt
+cat $f2 | head -n 15 | tail -n 8 >> list.txt
+cat list.txt
